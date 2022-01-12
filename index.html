@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div id="logo" onclick="slowScroll('#top')">  <!-- Creates a case named logo and give it a scroll animation by the javascript operation - slowScroll to the top of the website  -->
+      <span>Aero360</span> <!-- Logo -->
+    </div>
+    <div id="about">  
+      <a href="#" title="Возможности" onclick="slowScroll('#main')">Who we are</a> <!-- link that goes to the who we are web page -->
+      <a href="#" onclick="slowScroll('#overview')" title="Преимущества">Our products</a>
+      <a href="#" onclick="slowScroll('#contacts')" title="Контакты">Order a product</a>
+      <a href="#" onclick="slowScroll('#login')" title="Контакты">LogIn</a>
+      <a href="#" onclick="slowScroll('#statistics')" title="statistics">Statistics</a>
+       <a href="#" onclick="slowScroll('#faq')" title="Ответы на вопросы">FAQ</a>
+    </div>
+  </header>
+
+  <div id="top">
+    <h1>Alternative energy</h1>
+    <h3>like an innovative solution</h3>
+  </div>
+
+  <div id="main">
+    <div class="intro">
+
+      <h2>Who are we?</h2>
+      <span>New brand startup that will blow people minds!</span>
+    </div>
+    <div class="text">
+      <span>We are a young startup company that works with the alternative energy sources. We aimed to construct innovative ideas concerning enegy harvesting. Also we apply lot's of seminars that are goaled to teach young people to alternative energy sources</span>
+    </div>
+  </div>
+
+  <div id="overview">
+    <h2>Our products</h2>
+    <h4>We have one main product</h4>
+
+    <div class="img">
+      <img src="https://esquilo.io/png/thumb/g448dA7cQy2fsuH-Solar-Panel-PNG-Pic.png" alt=""> <!-- Adding the image -->
+      <span>Eco-friendly solar panels</span>
+    </div>
+    <iframe "
+src="https://www.youtube.com/embed/xKxrkht7CpY"><!-- https://www.youtube.com/watch?v=xKxrkht7CpY -->
+</iframe><!--  Adding a video from youtube -->
+  </div>
+
+  <div id="contacts">
+    <center><h5>Order a product</h5></center>
+    <form id="form_input"> <!-- Creating a form for the ordering a product  -->
+      <label for="name">Name <span>*</span></label><br> <!-- name label -->
+      <input type="text" placeholder="Write your name" name="name" id="name"><br> <!-- Creating a name bar with the text- type and id-name where you need to type your name -->
+      <label for="email">Your email <span>*</span></label><br>
+			<input type="email" placeholder="Write your email" name="email" id="email"><br>
+			<label for="message">Details <span>*</span></label><br>
+			<textarea placeholder="write any details of product" name="message" id="message"></textarea><br>
+			<div id="mess_send" class="btn">Send</div>
+    </form>
+  </div>
+  <div id="login"> <!-- login web page part -->
+
+    <center><h1>Log in</h1></center>
+    <form id="form_input">
+      <label for="name">Username <span></span></label><br>
+      <input type="text" placeholder="Write your username" name="name" id="name"><br>
+      <label for="email">Password <span></span></label><br>
+			<input type="password" placeholder="Write your password" name="email" id="email"><br>
+			<div id="mess_send" class="btn">Log in</div>
+    </form>
+  </div>
+  <hr>
+<div id="statistics">
+  <center><h1>Our statistics for the half of the year</h1></center>
+  <table id="tb"> <!-- The table of the statistics -->
+    <tr>  <!-- table row that contains 3 table data -->
+      <td>Product</td>
+      <td>month</td>
+      <td>sold number</td>
+    </tr>
+    <tr>
+      <td>DIRIL</td>
+      <td>January</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>DIRIL</td>
+      <td>February</td>
+      <td>17</td>
+    </tr>
+   
+      <td>DIRIL</td>
+      <td>March</td>
+      <td>26</td>
+    </tr>
+
+      <td>DIRIL</td>
+      <td>April</td>
+      <td>49</td>
+    </tr>
+    </tr>
+
+      <td>DIRIL</td>
+      <td>May</td>
+      <td>75</td>
+    </tr>
+  </table>
+</div>
+  <div id="faq">
+    <div><ul>
+      <span class="title">payment</span><br>
+      <li><span class="heading">how payment will be produced</span></li>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <li><span class="heading">how payment will be produced</span></li>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <li><span class="heading"> how payment will be produced</span></li>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    
+    </div>
+    <div>
+      <span class="title">payment</span><br>
+      <li><span class="heading">how payment will be produced</span></li>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <li><span class="heading">how payment will be produced</span></li>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <li><span class="heading">how payment will be produced</span></li>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+    </div>
+    <div>
+      <span class="title">payment</span><br>
+      <li><span class="heading">how payment will be produced</span></li>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <li><span class="heading">how payment will be produced</span></li>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      <li><span class="heading">how payment will be produced</span></li>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium beatae asperiores debitis perspiciatis perferendis nemo tempore distinctio officia commodi et non tempora laudantium culpa nostrum, quidem, quasi ratione itaque nam.</p>
+      </ul>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- Injecting JQuery into html -->
+  <script>
+    function slowScroll(id) {  
+      $('html, body').animate({ 
+        scrollTop: $(id).offset().top 
+        // Scrolling from top and making offset from the top
+       }, 500); 
+      // Animating the html and body sections with the scroll with speed of 500
+    }
+
+    $(document).on("scroll", function () {
+      // A condition of the animation for the fixed position
+      if($(window).scrollTop() === 0)
+        $("header").removeClass("fixed");
+      // If the page was scrolled we remove all the attributes that the fixed case has
+      else
+        $("header").attr("class", "fixed");
+      // Else we save and use the fixed attributes
+    });
+  </script>
+</body>
+</html>
